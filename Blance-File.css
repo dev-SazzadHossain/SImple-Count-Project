@@ -1,0 +1,68 @@
+.section {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.heading {
+    font-size: 3rem;
+    color: #0909a0;
+    text-shadow: darkkhaki;
+    font-weight: 600;
+    text-shadow: -4px 0px 21px #175eb7;
+    font-family: sans-serif;
+}
+
+.login-value1 {
+    margin-bottom: 15px;
+}
+
+input#email-file {
+    padding: 8px;
+    color: white;
+    background: black;
+    outline: none;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 6px black;
+}
+
+
+.login-value2 {
+    margin-bottom: 15px;
+}
+
+input#password-file {
+    padding: 8px;
+    color: white;
+    background: black;
+    outline: none;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 6px black;
+}
+
+.btn {
+    text-align: center;
+}
+
+button {
+    padding: 8px 13px;
+    background: black;
+    color: white;
+    font-size: 1.1rem;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: none;
+    transition: .5s;
+}
+
+.btn button:hover {
+    background-color: blueviolet;
+}

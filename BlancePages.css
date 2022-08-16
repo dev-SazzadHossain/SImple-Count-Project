@@ -1,0 +1,73 @@
+body {
+    background-color: beige;
+}
+
+section {
+    width: 300px;
+    height: 150px;
+    background: #121010;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 7px 17px #0e0404;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 2rem;
+    padding: 20px;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+.wrraper {
+    width: 900px;
+    height: 200px;
+    background: transparent;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    align-items: center;
+}
+
+.wrrapers {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 20px 0px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #060606;
+    background: #efefef;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(8, 163, 163);
+}
+
+.deposit-value {
+    text-align: center;
+}
