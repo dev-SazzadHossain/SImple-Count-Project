@@ -1,5 +1,15 @@
-body {
-    background-color: beige;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.header {
+    height: 100vh;
+    background: rgb(226, 201, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section {

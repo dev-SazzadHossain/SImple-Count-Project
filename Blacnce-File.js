@@ -10,7 +10,7 @@ document.getElementById('button'), addEventListener('click', function () {
     const inputPasswordValue = inputPassword.value;
 
     if ((inputEmailValue == 'sazzadssd512@gmail.com') && (inputPasswordValue == 'sazzad512')) {
-        window.location.href = 'BlancePage.html';
+        window.location.href = 'newPage/BlancePage.html';
     }
 
     // console.log(inputPasswordValue);
