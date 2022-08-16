@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    body {
+        background-color: red;
+    }
+
+    header.header {
+        height: auto;
+        width: 100%;
+        background: none;
+    }
+
+    .wrraper {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    section {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .wrrapers {
+        width: 100%;
+        display: block
+    }
+
+    .withraw-value {
+        text-align: center;
+    }
+
+}
